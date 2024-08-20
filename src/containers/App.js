@@ -14,7 +14,7 @@ function App() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response=> response.json())
       .then(users => {setRobots(users)});
-    // console.log(count)
+    // console.log(count) 
   },[]) // if you add count, only run if count changes.
 
   const onSearchChange = (event) => {
